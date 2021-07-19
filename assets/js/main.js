@@ -17,7 +17,7 @@
 				parallax: true,
 
 			// Parallax factor (lower = more intense, higher = less intense).
-				parallaxFactor: 20
+				parallaxFactor: 10
 
 		};
 
@@ -34,7 +34,7 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+			}, 500);
 		});
 
 	// Touch?
@@ -96,7 +96,7 @@
 	// Main Sections: Two.
 
 		// Lightbox gallery.
-			$window.on('load', function() {
+			$window.on('', function() {
 
 				$('#two').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },

@@ -2073,11 +2073,11 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'View on GitHub';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
-				left: 50%;
+				left: 43%;
 				line-height: 2.25em;
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
@@ -2134,7 +2134,7 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 175%;
 		}
 
 			.image.avatar:before {
@@ -2142,8 +2142,8 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
-				width: 170%;
+				border-radius: 175%;
+				width: 175%;
 			}
 
 /* List */
@@ -2465,7 +2465,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			border-color: #49bf9d;
-			color: #49bf9d !important;
+			color: #5f1538 !important;
 		}
 
 		input[type="submit"]:active,
